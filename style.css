@@ -178,7 +178,7 @@ section{
 
 .social i{
     display: inline-flex;
-    align-items: centre;
+    align-items: center;
     justify-content: center;
     height: 40px;
     width: 40px;
@@ -319,7 +319,7 @@ section{
     border-radius: 12px;
     border: 1px solid transparent;
     padding: 15px 20px;
-    transform: all 0.7s;
+    transition: all 0.7s;
 }
 #d{
     height: 60vh;
