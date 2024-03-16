@@ -321,6 +321,9 @@ section{
     padding: 15px 20px;
     transform: all 0.7s;
 }
+#d{
+    height: 60vh;
+}
 
 .main-row{
     display: flex;
