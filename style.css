@@ -306,6 +306,29 @@ section{
     gap: 2rem;
     margin-top: 4rem;
 }
+.work-content p{
+    line-height: 35px;
+    display: flex;
+    
+}
+
+.report {
+    background-color: #b8c7d3;
+    color:var(--bg-color);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 800px; /*  width of the section */
+    margin: 20px auto 0; /* horizontal */
+}
+
+
+.report p {
+    font-size: 16px;
+    line-height: 2.2em;
+    color: var(--bg-color);
+    text-align: left;
+}
 
 .row img{
     height: 10rem;
@@ -322,7 +345,8 @@ section{
     transition: all 0.7s;
 }
 #d{
-    height: 60vh;
+    height: 80vh;
+
 }
 
 .main-row{
@@ -330,6 +354,10 @@ section{
     align-items: center;
     justify-content: space-between;
     margin-bottom: 0.5rem;
+}
+
+.row{
+    height: 500px;
 }
 
 .row h5{
@@ -610,6 +638,7 @@ form .send-btn:hover{
     .h-text h2{
         margin-left: 2.2em;
     }
+   
     
     
 }
