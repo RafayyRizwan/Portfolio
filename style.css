@@ -470,6 +470,37 @@ form .send-btn:hover{
     font-size: 27px
 }
 
+.screenshotgrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust the min and max width as needed */
+    grid-gap: 20px;
+
+
+}
+.screenshotgrid .screenshot {
+    position: relative;
+    padding: 10px;
+}
+
+.screenshotgrid .screenshot img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.screenshotgrid .screenshot figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    font-size: 14px;
+}
+
 
 @media(max-width:1650px) {
     header{
