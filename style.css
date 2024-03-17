@@ -82,7 +82,7 @@ nav{
 
 .navbar a:hover{
     border-bottom: 2px solid var(--main-color);
-    color: var(--main-color);
+    color: var(--bg-color);
 }
 @keyframes appear {
     from {
@@ -591,6 +591,9 @@ form .send-btn:hover{
         font-size: 27px;
         font-weight: 500;
         
+    }
+    .navbar a:hover{
+        color: var(--main-color);
     }
     .navbar.open{
         right: 0;
