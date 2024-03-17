@@ -82,7 +82,7 @@ nav{
 
 .navbar a:hover{
     border-bottom: 2px solid var(--main-color);
-    color: var(--bg-color);
+    color: var(--main-color);
 }
 @keyframes appear {
     from {
